@@ -1,0 +1,61 @@
+.header_div {
+    font-family: 'Bruno Ace SC', cursive;
+    font-weight: bold;
+    background-color: lightgoldenrodyellow;
+    top: 0;
+    padding: 15px 45px;
+    text-align: center;
+}
+
+.startbtn {
+    background-image: linear-gradient(to right, #EB5757 0%, #000000 51%, #EB5757 100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.startbtn:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+.maindiv{
+    width:100%;
+    height:100%;
+    animation:changecolor 5s infinite;
+}
+@keyframes changecolor {
+    0% {background-color:#ff0000;}
+    10% {background-color:#ff7300;}
+    20% {background-color:#ebb057;}
+    30% {background-color:#d5eb57;}  
+    40% {background-color:#57eba1;}   
+    50% {background-color:#57c1eb;}   
+    60% {background-color:#5761eb;}   
+    70% {background-color:#a857eb;}   
+    80% {background-color:#eb57e4;}   
+    90% {background-color:#ff0095;}   
+    100% {background-color:#aa4d4d;}       
+}
+#sound_name,#sound_accuracy{
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+}
+.footer_div{
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    line-height: 2;
+    background-color: lightgoldenrodyellow;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
